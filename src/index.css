@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&family=Karla:wght@400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root { font-family: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif; font-synthesis: none; }
+* { box-sizing: border-box; }
+body { margin: 0; }
+.font-num { font-family: 'Karla', 'Instrument Sans', sans-serif; font-variant-numeric: tabular-nums; }
+@media (max-width: 760px) { body > #root .max-w-6xl > .flex.items-start { flex-direction: column; } body > #root .max-w-6xl > .flex.items-start > .shrink-0 { width: 100% !important; max-width: 390px; margin-inline: auto; } }
